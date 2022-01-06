@@ -7,8 +7,8 @@ public class Questao5M
 		float altura;
 		String sexo;
 		float pesoIdeal;
-		System.out.print("Digite a altura: "); altura = cin.nextFloat();
-		System.out.print("Digite o sexo: "); sexo = cin.next();
+		System.out.println("Digite a altura: "); altura = cin.nextFloat();
+		System.out.println("Digite o sexo: "); sexo = cin.next();
 		
 		if (sexo.equals("M"))
 		{
@@ -18,6 +18,6 @@ public class Questao5M
 		{
 			pesoIdeal = 62.1f * altura - 44.7f;
 		}
-		System.out.print("Peso ideal calculado: " + pesoIdeal);
+		System.out.println("Peso ideal calculado: " + pesoIdeal);
 	}
 }
